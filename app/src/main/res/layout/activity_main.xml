@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/editSearch"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:hint="@string/Search_for_hastag"/>
+            <Button
+                android:id="@+id/btnSearch"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Search"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:divider="@null"
+            android:dividerHeight="0dp"/>
+
+    </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <!-- Loading indicator is only shown before the first load -->
+
+
+
+
+

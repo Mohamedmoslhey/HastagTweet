@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hastagey</string>
+    <string name="Click_Me">Go</string>
+    <string name="Title">Search #</string>
+    <string name="empty_view_title_text">NoTweetRigth now</string>
+    <string name="Add_search">Enter your hastag search here</string>
+    <string name="Search_for_hastag">Search # Here</string>
+    <string name="error">Error while searching tweets</string>
+    <string name="searching">searching tweets</string>
+    <string name="action_settings">search</string>
+</resources>
